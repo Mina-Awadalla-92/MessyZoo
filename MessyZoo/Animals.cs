@@ -6,21 +6,26 @@ using System.Threading.Tasks;
 
 namespace MessyZoo
 {
-    internal class Bear
+    class Animal
+    {
+        public string name;
+        public string age;
+    }
+    internal class Bear : Animal
     {
         public string name;
         public string age;
         public string color;
     }
 
-    internal class Monkey
+    internal class Monkey : Animal
     {
         public string name;
         public string age;
         public string height;
     }
 
-    internal class Parrot
+    internal class Parrot : Animal
     {
         public string name;
         public string age;
