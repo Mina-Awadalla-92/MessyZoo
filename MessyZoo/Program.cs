@@ -89,7 +89,6 @@ while (repeat)
             {
                 Console.WriteLine(parrot.name);
             }
-
             break;
         }
         case "0":
